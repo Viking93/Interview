@@ -1,0 +1,28 @@
+Content Delivery Network(CDN) is a group of distrbuted servers which provide fast delivery of internet content.
+
+Benefits
+********
+
+1. Improved Website load time - It does caching of static content at the network edge which enables user to
+access content from a nearby cdn server.
+2. Reduced bandwidth costs 
+3. Increased content availability and redundancy 
+3. Improved website security - Provides network and application level protection preventing harm or loss of service by
+filtering traffic with web application firewalls and DDoS protection services integrated at the edge locations and 
+integrated into the caching network.
+4. Deliver dynamic content - They deliver dynamic content by maintaining a secure open connection to the origin server(same
+network in the case of cloud based cdn) which accelerates routing back to origin server for dynamic content.
+5. Perform logic computation at the edge - It can quickly inspect the requests, modify caching logic, do authentication and
+can even modify the content while delivery and ingestion.
+
+Working
+*******
+
+CDN works by placing servers at IXPs(internet exchange points) between different networks. IXPs are the primary locations where
+different Internet providers connect in order to provide each other access to traffic originating on their different networks.
+
+Examples - Amazon Cloud Front
+
+Resources 
+* https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
+* https://aws.amazon.com/caching/cdn/
